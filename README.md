@@ -3,6 +3,7 @@
 ### Client-bound packets
 
 - `spawn-request`
+    - `invite`
 - `control`
     - `velocity`
     - `position`
@@ -13,6 +14,7 @@
 ### Server-bound packets
 
 - `info` Informs the client about global parameters.
+    - `invite`
     - Insert some important parameters here...
 
 - `player-update` Updates player controlled entity id
